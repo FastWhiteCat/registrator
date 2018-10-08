@@ -36,6 +36,7 @@ type Service struct {
 	Name  string
 	Port  int
 	IP    string
+	Network string
 	Tags  []string
 	Attrs map[string]string
 	TTL   int
